@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "*", 
+  origin: "https://evaluation-task-1-frontend-97dg.onrender.com", 
   credentials: true
 }));
 
