@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'https://evaluation-task-1-frontend-97dg.onrender.com',
+  origin: 'https://evaluation-task.netlify.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
